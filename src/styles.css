@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+.appoinments-logo{    width: 68px;  height: 68px;  border-radius: 54%;}
+.btn-warning-topmatches {
+    padding: 3px;
+    font-family: Raleway-SemiBold;
+    font-size: 12px;
+    color: rgba(240, 173, 78, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(240, 173, 78, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn-warning-topmatches:hover {
+    color: #FFF;
+    background: rgb(240, 173, 78, 0.75);
+    border: 2px solid rgba(240, 173, 78, 0.75);
+  }
+
+  
+  .book-appoinments {
+    display: inline-block;
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    font: 12px 'Oswald', Arial, sans-serif;
+    /* height: 80px; */
+    letter-spacing: 1px;
+    /* margin: 0 auto; */
+    padding: 6px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 2;
+    background-image: linear-gradient(to right, #7ebdd9 0%, #1f5d7b 100%);
+  }
+  
+  .book-appoinments {
+      color: #fff;
+  }
+  
+  .book-appoinments span {
+      align-items: center;
+      background: #e7e8e9;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      transition: background .5s ease;
+      width: 100%;
+  }
+  
+  .book-appoinments span {
+      background: transparent;
+  }
+
+  .appointments-tag{
+    padding: 6px;}
+   .appointments-tagdropdown{    display: inline-block;}
+  .appointments-tagdropdown .dropdown-menu {top: 28px !important;
+    left: -175px !important;}
+    .appointments-tagdropdown .actionselect:hover{background: #63a1be;color: #fff;}
+    .appoinments-navfilter {background-color: #edecea!important;}
+    .appoinments-navfilter .navbar-nav .nav-link:hover{    color: #4c4949;}
+    .appoinments-navfilter .navbar-nav .nav-link{    color: rgba(31, 31, 31, 0.5);}
+    .Corporate-s{padding-top: 8px;}
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        background: #d1d4d8;
+    }
+
+    .float-right {
+       
+        color: #1fc0bf;
+    }
+    .sortby{left: -136px;}

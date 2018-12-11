@@ -1,0 +1,111 @@
+<div class="container-fluid viewprofile">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-1">
+          <img data-src="https://www.w3schools.com/bootstrap/newyork.jpg" src="https://www.w3schools.com/bootstrap/newyork.jpg" alt="" class="mr-2 rounded appoinments-logo">
+
+      </div>
+      <div class="col-md-8 viewdetails">
+       <div>
+          <h3 class="viewprofile-name headclr">User name</h3>
+        <h5 class="user-daetails">CEO at Globalnest Inc</h5>
+        <p class="user-daetails">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a class="" href="#" role="button">View details »</a>
+        </p>
+
+        <!-- <div ng-init="limit = 150; moreShown = false">
+            {{text | limitTo: limit}}{{text.length > limit ? '...' : ''}}
+            <a ng-show="text.length > limit"
+              href ng-click="limit=text.length; moreShown = true">  More
+            </a>
+            <a ng-show="moreShown" href ng-click="limit=150; moreShown =    false"> Less </a>
+        </div> -->
+
+        <p class="user-daetails"><strong>Age : </strong> 25 | <strong> DOB :</strong> 01-01-1990 | <strong>Gender :</strong> Female </p>
+       </div>
+       <div>
+          <h3 class="viewprofile-name headclr" style="text-decoration: underline;">Cantact Info</h3>
+          <ul style="list-style: none;">
+              <li><span>(123)123-1234</span></li>
+              <li>mail@nomail.com</li>
+              <li>www.globalnest.com</li>
+            </ul>  
+                   </div>
+       <div>
+          <h3 class="viewprofile-name headclr" tyle="text-decoration: underline;">Company Capabilities</h3>
+       
+        <p class="user-daetails">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a class=" " href="#" role="button">View details »</a>
+        </p>
+        <h5 class="user-daetails">Company Overview</h5>
+        
+        <p class="user-daetails">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a class=" " href="#" role="button">View details »</a>
+        </p>
+        <h5 class="user-daetails">Product/Service Keywords:</h5>
+        <p class="user-daetails">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a class=" " href="#" role="button">View details »</a>
+        </p>
+        <h5 class="user-daetails">Exeptional Keywords:</h5>
+        <p class="user-daetails">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a class=" " href="#" role="button">View details »</a>
+        </p>
+               </div>
+       <div>
+          <h3 class="viewprofile-name headclr" tyle="text-decoration: underline;">Noics Code Information</h3>
+       
+        <p class="user-daetails">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a class=" " href="#" role="button">View details »</a>
+        </p>
+        </div>
+       <div>
+          <h3 class="viewprofile-name headclr" tyle="text-decoration: underline;">Diversity Type Information</h3>
+        
+        <p class="user-daetails">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a class=" " href="#" role="button">View details »</a>
+        </p>
+         </div>
+       
+      </div>
+      <div class="col-md-3 viewproright">
+         <div>
+            <a class="btn book-appoinments" href="#">
+                <span><i class="fa fa-navicon"></i> Book Appointments</span>
+            </a>&nbsp;
+            <a class="btn book-appoinments" href="#">
+                <span>Message</span>
+            </a>&nbsp;
+            <a>
+                <span><i class="fa fa-ellipsis-h"></i></span>
+            </a>
+         </div>
+         <div>
+           <p><span class="profileviewed">100</span> <br/>People viewed your profile</p>
+          
+         </div>
+         <div>
+           <p class="activites">Activities</p>
+         </div>
+         <hr/>
+         <div class="row">
+         <div class="col-md-6" (click)="open(content)"> Add Note</div>
+         <div class="col-md-6">Add Tags</div>
+         </div>
+         <hr/>
+         <div>
+           <p><span>Jhon is now Connect with</span>&nbsp;<span class="connectionname">Durga p. Mikkilineni</span></p>
+         </div>
+         <hr/>
+         <div>
+            <p> <span>Jhon</span>&nbsp; <span class="btn btn-success">Accepted</span>  <span class="float-right">05/02/2018</span></p>
+            <p>Ralph lewis's appointed requested</p>
+           </div>
+           <hr/>
+           <div>
+              <p> <span>Jhon</span>&nbsp; <span class="btn btn-info">Scheduled</span>  <span class="float-right">05/02/2018</span></p>
+              <p>Maxi's appointment</p>
+             </div>
+             <hr/>
+             <div>
+                <p> <span>Jhon</span>&nbsp; <span class="btn btn-danger">Canceled</span>  <span class="float-right">05/02/2018</span></p>
+                <p>Rahul's appointment</p>
+               </div>
+      </div>
+    </div>
+
+    <hr>
+
+  </div>
